@@ -31,19 +31,19 @@ const Category = () => {
                     <h3 className="text-4xl uppercase text-center -mt-16 text-white">Salad</h3>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src={slide3} alt="" />
+                    <img src={slide2} alt="" />
                     <h3 className="text-4xl uppercase text-center -mt-16 text-white">Pizzas</h3>
                     </SwiperSlide>
                 <SwiperSlide>
-                    <img src={slide4} alt="" />
+                    <img src={slide3} alt="" />
                     <h3 className="text-4xl uppercase text-center -mt-16 text-white">Soups</h3>
                     </SwiperSlide>
                 <SwiperSlide>
-                    <img src={slide5} alt="" />
+                    <img src={slide4} alt="" />
                     <h3 className="text-4xl uppercase text-center -mt-16 text-white">Desserts</h3>
                     </SwiperSlide>
                 <SwiperSlide>
-                    <img src={slide2} alt="" />
+                    <img src={slide5} alt="" />
                     <h3 className="text-4xl uppercase text-center -mt-16 text-white">Salad</h3>
                     </SwiperSlide>
             </Swiper>
