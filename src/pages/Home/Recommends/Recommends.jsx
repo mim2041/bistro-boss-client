@@ -6,7 +6,7 @@ import RecommendCard from "./RecommendCard";
 const Recommends = () => {
     const [items, setItems] = useState([]);
     useEffect(() => {
-        fetch('menu.json')
+        fetch('http://localhost:5000/menu')
             .then(res => res.json())
             .then(data => {
                 const offeredData = data.filter(item => item.category === 'offered')
