@@ -1,7 +1,7 @@
 
 
 const MenuItem = ({item}) => {
-    console.log(item)
+    // console.log(item)
     const {image, price, recipe, name} = item;
 
     return (
